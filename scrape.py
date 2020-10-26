@@ -36,7 +36,7 @@ def create_custom_hn(links, subtext):
 
 
 stories = create_custom_hn(links, subtext)
-
+print('\n')
 for story in enumerate(stories):
     print('Title:', story[1]['title'])
     print('Link to article:', story[1]['link'])
